@@ -1,0 +1,25 @@
+Package: AnisTools
+Title: tools on air data traitment
+Version: 1.1.1.4
+Authors@R: 
+    person("Agnes", "Hulin", , "ahulin@atmo-na.org", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: What the package does (one paragraph).
+License: `use_mit_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    data.table,
+    ggmap,
+    ggplot2,
+    httr,
+    janitor,
+    jsonlite,
+    Metrics,
+    plyr,
+    sf,
+    sp,
+    rlang
+URL: https://github.com/ahulin/AnisTools
+BugReports: https://github.com/ahulin/AnisTools/issues
